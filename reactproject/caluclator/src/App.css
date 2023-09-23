@@ -1,0 +1,546 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  
+  to {
+  box-shadow: 2px 2px 10px rgba(	0.71, 0.53, 0, 0.9);
+  height: 302px;
+  width: 202px;
+  }
+}
+#fig {
+text-align: center;
+background-color:rgba(0,0, 0, 0.9);
+height: 45px;
+padding-top: 2px;
+}
+.centd{
+  height: 37px;
+  width: 120px;
+padding: 8px;
+margin-left: 30px;
+border-radius: 5px;
+
+
+}
+.centd:hover{
+  box-shadow: 2px 2px 3px white;
+  border: 2px solid white;
+  background-color:darkgray;
+  color:black;
+padding: 5px;
+
+font-weight: 50px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#cal{
+color: red;
+text-align: center;
+font-size: 200px;
+padding-top: 200px;
+
+}
+#homback {
+  background-image:
+  url('calculators.jpg');
+  background-size:1263px 700px;
+  background-repeat: no-repeat;
+}
+#para{
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+a:hover{
+font-size: 18px;
+/* color:whitesmoke; */
+color: black;
+
+}
+#about{
+  background-image: url(calbak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+
+  
+}
+#abo{
+  color: black;
+  text-align: center;
+  
+}
+#maincalc{
+  height: 700px;
+  width: 1263px;
+
+}
+#wholeofcal{
+  background-image: url(calbacku.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#firstcal{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+ margin-left: 100px;
+ text-align: center;
+ padding-top: 130px;
+ background-color: red;
+ border-radius: 15px;
+ margin-top: 80px;
+
+
+}
+#secondcal{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+ margin-left: 100px;
+  
+ text-align: center;
+ padding-top: 130px;
+ background-color:goldenrod;
+
+ border-radius: 15px;
+ margin-top: 80px;
+
+}
+#thirdcal{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+ margin-left: 100px;
+ text-align: center;
+ padding-top: 130px;
+ background-color:lightsalmon;
+
+ border-radius: 15px;
+  
+ margin-top: 80px;
+
+}
+#fourthcal{
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+ margin-left: 100px;
+ text-align: center;
+ padding-top: 130px;
+ background-color:orange;
+
+ border-radius: 15px;
+  
+ margin-top: 80px;
+
+}
+.rey:hover {
+font-size: 30px;
+color:white;
+animation-name: App-logo-spin ;
+animation-duration: 2s;
+box-shadow: 10px 10px 20px skyblue;
+}
+#contactdiv{
+  height: 700px;
+  width: 1263px;
+  background-image: url(calbuk.jpg);
+  background-size: 1263px 700px;
+}
+.colr1{
+  color: white;
+}
+#bmidiv{
+  height: 700px;
+  width: 1263px;
+  background-image: url('mainimg.jpg');
+  background-size: 1263px 700px;
+}
+.inp{
+  border-radius: 8px;
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  box-shadow: 2px 2px 10px black;
+  border: none;
+}
+#bmi{
+  box-shadow: 2px 2px 10px black;
+  border-radius: 8px;
+}
+#bmi:hover{
+  box-shadow: 3px 3px 10px white;
+}
+.out{
+  font-size: 60px;
+  color: white;
+}
+#agediv{
+  height: 300px;
+  width:700px;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 12px royalblue;
+  border:1px solid royalblue;
+}
+#mainage{
+  background-color:black;
+  height: 700px;
+}
+#agediv:hover{
+  animation-name: agedit;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes agedit{
+0%{border-top: 1px  white; box-shadow: 5px 5px 20px green inset,3px 3px 12px royalblue;}
+25%{border-right: 2px solid white;box-shadow: 5px 5px 20px red inset,3px 3px 12px royalblue;}
+50%{border-bottom: 2px solid white;box-shadow: 5px 5px 20px gold inset,3px 3px 12px royalblue;}
+75%{border-left:2px solid white;box-shadow: 5px 5px 20px orange inset,3px 3px 12px royalblue;}
+100%{border: 1px solid royalblue;box-shadow: 5px 5px 20px green inset,3px 3px 12px royalblue;}
+
+
+
+}
+#ageinp{
+  height: 40px;
+  width: 220px;
+  font-size: 30px;
+  border-radius: 12px;
+}
+#ageinp:hover{
+  box-shadow: 2px 2px 15px violet inset;
+}
+#result{
+  font-size: 25px;
+  color: white;
+}
+#agebtn{
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px blanchedalmond;
+
+}
+#agebtn:hover{
+  box-shadow: 2px 2px 10px orangered,2px 2px 15px cornflowerblue inset;
+
+}
+#displayar{
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+}
+#inp{
+ 
+  position: relative;
+  bottom: 5px;
+  margin-bottom: 30px;
+border-radius: 4px;
+  
+}
+#artmaindiv{
+  height:600px;
+  width: 400px;
+  background-color: black;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 3px  3px 20px green;
+  border: 1px solid greenyellow;
+}
+#artwholediv{
+  background-color:black;
+  height: 700px;
+}
+#dispar{
+  height:80px;
+  width:360px;
+  background-color: black;
+  box-shadow: 1px 1px 25px green;
+  border: none;
+  border-color: transparent;
+  color: white;
+  font-size: 40px;
+  margin-top: 18px;
+  border-radius: 10px;
+  text-align: right;
+
+}
+input:focus{ border: none;outline: none; }
+.butart{
+  height: 60px;
+  width: 60px;
+  border-radius: 500px;
+  background-color: black;
+  box-shadow:1px 1px 10px green;
+  color: white;
+  margin: 18px;
+font-size: 27px;
+cursor: pointer;
+}
+.butart:hover{
+  border: 1px solid green;
+}
+#space{
+  height: 60px;
+  width: 60px;
+  border-radius: 500px;
+  background-color: black;
+  box-shadow:1px 1px 10px red;
+  color: white;
+cursor: pointer;
+font-size: 10px;
+margin-left: 15px;
+
+
+}
+#delete{
+  height: 60px;
+  width: 60px;
+  border-radius: 500px;
+  background-color: black;
+  box-shadow:1px 1px 10px red;
+  color: white;
+cursor: pointer;
+font-size: 10px;
+margin-left: 240px;
+
+
+}
+#labcon{
+  color: white;
+  padding-top: 8px;
+}
+#consubmit{
+  position: relative;
+  bottom: 5px;
+  width: 100px;
+  height: 35px;
+  border-radius: 4px;
+  outline: none;
+}
+#phycal{
+  background-image: url(phycal.jpg);
+  background-size: cover;
+  height: 700px;
+  
+}
+#mainfin{
+  height: 700px;
+  
+background-image: url(fincal.jpg);
+background-size: cover;
+  padding-top: 50px;
+  padding-left: 400px;
+}
+#finance{
+  height:300px;
+width: 500px;
+
+  background-color:lightgray;
+  border-radius: 10px;
+box-shadow: 3px 3px 6px black;
+}
+.priamtlab{
+  color: black;
+  margin-left: 15px;
+  font-size: 20px;
+}
+#priamt{
+  margin:16px;
+  margin-left: 50px;
+  height: 30px;
+border-radius: 6px;
+border: 0px;
+box-shadow: 3px 3px 6px black;
+font-size: 15px;
+
+}
+#tenure{
+  margin:16px;
+  margin-left: 80px;
+  height: 30px;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 3px 3px 6px black;
+  font-size: 15px;
+
+
+}
+#rate{
+  margin:16px;
+  margin-left: 65px;
+  height: 30px;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 3px 3px 6px black;
+  font-size: 15px;
+
+}
+#intrest{
+  margin: 16px;
+  margin-left: 135px;
+  height: 30px;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 3px 3px 6px black;
+font-size: 15px;
+}
+#fincal{
+  position: relative;
+  left:150px;
+  height: 30px;
+  width: 100px;
+  margin-top: 8px;
+border-radius: 5px;
+
+}
+#fincal:hover{
+box-shadow: 2px 2px 3px black;
+
+}
+#finclr{
+  position: relative;
+  left:160px;
+  height: 30px;
+  width: 100px;
+border-radius: 5px;
+
+}
+#finclr:hover{
+  box-shadow: 2px 2px 3px black;
+  
+  }
+#portfolio{
+  height: 300px;
+  width: 1263px;
+  background-color: lightgray;
+    padding-left: 200px;
+}
+#details{
+  background-color: darkgray;
+  height: 250px;
+  width: 800px;
+  box-shadow: 1px 1px 8px black;
+  border-radius: 10px;
+
+
+}
+#pic{
+  height: 250px;
+  width: 300px;
+  background-image: url('rajesh.jpg');
+  background-size: cover;
+  float: left;
+
+}
+#data{
+  height: 250px;
+  width: 500px;
+  float: right;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+button{
+  cursor: pointer;
+}
+@keyframes aganim {
+  0%{text-shadow: 2px 2px 5px violet ;}
+  25%{text-shadow: 2px 2px 5px yellow ;}
+  50%{text-shadow: 2px 2px 5px yellowgreen;}
+  70%{text-shadow: 2px 2px 5px royalblue ;}
+  100%{text-shadow: 2px 2px 5px pink ;}
+
+
+}
+#agecal{
+  animation-name: aganim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#feddiv{
+  height: 500px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px black;
+}
+#fedbtn{
+  height: 38px;
+  width: 150px;
+  background-color:greenyellow;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px black;
+  margin-top: 70px;
+
+}
+.inpf{
+  height: 32px;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+
+}
+.inpmf{
+  height: 80px;
+  width: 180px;
+  border-radius:8px;
+  margin-left: 130px;
+
+}
+#ou{
+  color:white;
+  font-size: 30px;
+}
+#fedmain{
+  background-image: url(fedback.jpg);
+  background-size: cover;
+  height: 700px;
+}
